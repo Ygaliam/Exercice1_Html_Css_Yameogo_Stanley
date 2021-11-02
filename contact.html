@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <title>DIVE Co., Ltd.</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header clearfix">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">home</a></li>
+          <li><a href="business.html">Business Description</a></li>
+          <li><a href="company.html">Company Profile</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/company.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="business.html">Business Description</a></li>
+            <li><a href="company.html">Company Profile</a></li>
+            <li class="point"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <article class="content">
+      <form method="post">
+         <table class="contact">
+            <tr>
+               <th>
+                  <label>
+                     Nom (au complet)
+                  </label>
+               </th>
+               <td>
+                  <input type="text" name="nom" class="large"/>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <label>
+                     Email
+                  </label>
+               </th>
+               <td>
+                  <input type="email" name="email" class="large"/>
+               </td>
+            </tr>
+			<tr>
+               <th>
+                  <label>
+                     Sexe
+                  </label>
+               </th>
+               <td>
+                  <input type="radio" id="sexe1" name="sexe" value="Hommes" checked>
+				 <label for="Hommes">Hommes</label>
+
+				<input type="radio" id="sexe2" name="sexe" value="femmes">
+				<label for="femmes">femmes</label>
+               </td>
+            </tr>
+            <tr>
+               <th>
+                  <label>
+                     Message
+                  </label>
+               </th>
+               <td>
+                  <textarea name="message" class="large"></textarea>
+               </td>
+            </tr>
+            <tr>
+               <th></th>
+               <td>
+                  <input type="submit" value="Envoyer" class="button">
+               </td>
+            </tr>
+         </table>
+      </form>
+      </article>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+</body>
+</html>
