@@ -7,7 +7,6 @@
   }
   .contact th{
     width: 150px;
-	margin-right: 50px;
 	text-align: right;
   }
   .contact td{
@@ -16,16 +15,27 @@
   }
   .large{
 	  width: 480px;
+	  margin-left: 10px; 
+  }
+  .espace{
+	 margin-left: 10px; 
   }
  .button{
 	  height: 3rem;
 	  color: #fff;
 	  padding: 10px 10x 10px 10px;
-	  visibility:transparent;
-	  opacity: 0.8;
-	  cursor: pointer;
-	  background-color: #008B8B;
-	  background-repeat:no-repeat;
 	  margin-left: 100px;
+	  background-color: #008B8B;
+	  
   }
+  .contact td input:button{
+	margin-left: 100px;
+  }
+  .button:hover {
+    background-color: #008B8B;
+	opacity: 0.3;
+}
+  .button:active {
+  background-color: #008B8B;
+}
 
